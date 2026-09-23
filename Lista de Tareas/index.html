@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <!-- Vinculación con hoja de estilos externa -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <main class="container">
+        <h1>Mi Lista de Tareas</h1>
+
+        <!-- Formulario para ingresar nuevas tareas -->
+        <section class="task-form">
+            <input type="text" id="taskInput" placeholder="Escribe una nueva tarea...">
+            <button id="addTaskBtn">Agregar</button>
+        </section>
+
+        <!-- Lista donde se desplegarán las tareas -->
+        <ul id="taskList">
+            <!-- Las tareas se generarán dinámicamente con JavaScript -->
+        </ul>
+    </main>
+
+    <!-- Vinculación con el código JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
